@@ -1,10 +1,10 @@
-import Logo from "../../assets/logo-text.png";
+import FooterLogo from "../footer/logo-text.png";
 const Up = () => {
   return (
     <div className="container space-y-2 px-13 py-3">
       <div className="flex justify-between items-center gap-6">
         <div>
-          <img src={Logo} alt="" />
+          <img src={FooterLogo} alt="" />
           <p className="text-[12px] text-[#64748B]">
             Curated tools, technologies, and resources for developers building
             <br />
